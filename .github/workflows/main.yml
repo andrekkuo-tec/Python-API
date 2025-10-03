@@ -1,34 +1,4 @@
-Skip to content
-Navigation Menu
-Ovelar03
-Python_API
 
-Type / to search
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Files
-Go to file
-t
-.github/workflows
-ephemeral-api.yml
-Misc
-.gitignore
-README.md
-main.py
-requirements.txt
-Python_API/.github/workflows
-/ephemeral-api.yml
- 
-
-Code
-
-Blame
-135 lines (122 loc) · 9.14 KB
 # =========================
 # Ephemeral API (1h) with Cloudflare Tunnel + LocalTunnel fallback
 # This GitHub Actions workflow:
@@ -158,15 +128,7 @@ jobs:                                    # A workflow is composed of one or more
           pkill -f cloudflared 2>/dev/null || true          # Kill any cloudflared processes (best-effort).
           pkill -f localtunnel 2>/dev/null || true          # Kill any LocalTunnel processes (best-effort).
           echo "Stopped."                                    # Final log line confirming teardown.
-Footer
-© 2025 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Community
-Docs
+
 Contact
 Manage cookies
 Do not share my personal information
